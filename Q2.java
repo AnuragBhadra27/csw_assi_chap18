@@ -8,11 +8,12 @@ public class Q2 {
 		Calculator csub= (x,y)->{return x-y;};
 		Calculator cmul= (x,y)->{return x*y;};
 		Calculator cdiv= (x,y)->{
-			/*if(y==0) {
-				System.out.println("y Can't be zero");
+			/*try {
+				return x/y;
+			}catch(Exception e) {
+				System.out.println(e.getMessage());
 				return 0;
-			}
-			else {*/
+			}*/
 				return x/y;
 			
 		};
